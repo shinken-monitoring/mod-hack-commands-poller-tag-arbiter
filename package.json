@@ -1,21 +1,21 @@
 {
-  "name": "ip-tag",
+  "name": "hack-commands-poller-tag-arbiter",
   "types": ["module"],
   "version": "1.4",
-  "homepage": "http://github.com/shinken-monitoring/mod-ip-tag",
+  "homepage": "http://github.com/shinken-monitoring/mod-hack-commands-poller-tag-arbiter",
   "author": "Jean Gabès",
-  "description": "Tag host by their IP ranges",
+  "description": "Replace on-the-fly a command's poller tag by another",
   "contributors": [
     {
       "name": "Jean Gabès",
       "email": "naparuba@gmail.com"
     }
   ],
-  "repository": "https://github.com/shinken-monitoring/mod-ip-tag",
+  "repository": "https://github.com/shinken-monitoring/mod-hack-commands-poller-tag-arbiter",
   "keywords": [
     "module",
     "arbiter",
-    "ip"
+    "poller-tag"
   ],
   "dependencies": {
     "shinken": ">=1.4"
